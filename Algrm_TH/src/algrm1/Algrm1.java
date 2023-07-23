@@ -14,26 +14,6 @@ public class Algrm1 {
     /**
      * @param args the command line arguments
      */
-//    static void xuLy(long a, int w, long p) {
-//        int m, t;
-//        int[] A = new int[10];
-//        m = (int) Math.round(Math.log(p) / Math.log(2));
-//        t = (int)(Math.round((float)m / w));
-//        for (int i = t-1; i >= 0; i--) {
-//            A[i]=(int)(a / (long)Math.pow(2, w*i));
-//            if(i==0){
-//                A[i]=(int)Math.round(a/(long)Math.pow(2,w*i));
-//                break;
-//            }
-//            a = (long) (a % (Math.pow(2, w *i)));
-//        }
-//                System.out.print("A[]={ ");        
-//         for(int i=t-1; i>=0; i--){
-//                System.out.print(A[i]+" ");
-//
-//         }
-//                System.out.println("}");
-//    }
 
     public static void main(String[] args) {
         // TODO code application logic here
